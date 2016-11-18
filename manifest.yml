@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PRICING_MATRIX
+  host: PRICINGMATRIX
+  disk_quota: 1024M
+  services:
+  - PRICING_MATRIX-cloudantNoSQLDB
